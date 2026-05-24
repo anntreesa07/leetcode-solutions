@@ -29,7 +29,7 @@ class Solution(object):
 
             current=current.next     #moves the merged-list pointer forward.
 
-        if list1:
+        if list1:                   #one list may still have nodes left, connect them
             current.next = list1
         else:
             current.next = list2        

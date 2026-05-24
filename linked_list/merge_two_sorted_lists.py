@@ -27,7 +27,7 @@ class Solution(object):
                 current.next=list2
                 list2=list2.next     #move list2
 
-            current=current.next
+            current=current.next     #moves the merged-list pointer forward.
 
         if list1:
             current.next = list1
